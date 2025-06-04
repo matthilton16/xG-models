@@ -12,7 +12,7 @@ The `main.py` script orchestrates an end-to-end pipeline:
 4.  **Player Valuation (`src.models.value_players`):** Uses VGP model outputs (xG mean and variance) to calculate player performance metrics and soft-weighted values. `src.models.value_players` also includes a class to marginalizing over shot characteristics to estimate player-specific shooting ability.
 5.  **Visualization & Results (`src.viz.plot_utils`):** Generates plots like xG distributions and pitch heatmaps.
 
-This process is demonstrated in the `src.notebooks.xg_models`
+Unfortunately due to privacy constraints the data cannot be provided. However, this process is demonstrated in the `src.notebooks.xg_models`
 
 ## Repository Structure
 
